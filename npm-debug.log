@@ -1,0 +1,77 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'unpublish', 'filesearch@0.1.0' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/ubuntu/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose raw, before any munging filesearch
+verbose url resolving [ 'https://registry.npmjs.org/', './filesearch' ]
+verbose url resolved https://registry.npmjs.org/filesearch
+verbose etag "69KI5WSTZ6SYSS23WSB7FTN8J"
+http GET https://registry.npmjs.org/filesearch
+http 304 https://registry.npmjs.org/filesearch
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"69KI5WSTZ6SYSS23WSB7FTN8J"',
+silly get cb     date: 'Mon, 05 Aug 2013 06:29:06 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag filesearch from cache
+verbose removing attachments { shasum: 'be0f5b19f1a7645992dbc529e79227668e282bbf',
+verbose removing attachments   tarball: 'http://registry.npmjs.org/filesearch/-/filesearch-0.1.0.tgz' }
+info unpublish No versions remain, removing entire package
+verbose raw, before any munging filesearch/-rev/3-034304932a474d1c219191a844b0aa4e
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './filesearch/-rev/3-034304932a474d1c219191a844b0aa4e' ]
+verbose url resolved https://registry.npmjs.org/filesearch/-rev/3-034304932a474d1c219191a844b0aa4e
+http DELETE https://registry.npmjs.org/filesearch/-rev/3-034304932a474d1c219191a844b0aa4e
+http 403 https://registry.npmjs.org/filesearch/-rev/3-034304932a474d1c219191a844b0aa4e
+ERR! Error: forbidden user: yunw not authorized to modify filesearch
+ERR! Deleted: name
+ERR! Deleted: description
+ERR! Deleted: dist-tags
+ERR! Deleted: versions
+ERR! Deleted: readme
+ERR! Deleted: maintainers
+ERR! Deleted: time
+ERR! Deleted: author
+ERR! Deleted: repository
+ERR! Deleted: _revisions.ids.1
+ERR! Deleted: _revisions.ids.2
+ERR! Deleted: _attachments
+ERR! Added: _deleted: filesearch/-rev/3-034304932a474d1c219191a844b0aa4e
+ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:181:12)
+ERR!     at Request.callback (/usr/lib/nodejs/request/main.js:119:22)
+ERR!     at Request.<anonymous> (/usr/lib/nodejs/request/main.js:525:16)
+ERR!     at Request.emit (events.js:67:17)
+ERR!     at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/main.js:484:14)
+ERR!     at IncomingMessage.emit (events.js:88:20)
+ERR!     at HTTPParser.onMessageComplete (http.js:137:23)
+ERR!     at CleartextStream.ondata (http.js:1150:24)
+ERR!     at CleartextStream._push (tls.js:375:27)
+ERR!     at SecurePair.cycle (tls.js:734:20)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/ubuntu/writeanodetool/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.2.0-40-virtual
+ERR! command "node" "/usr/bin/npm" "unpublish" "filesearch@0.1.0"
+ERR! cwd /home/ubuntu/writeanodetool
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message forbidden user: yunw not authorized to modify filesearch
+ERR! message Deleted: name
+ERR! message Deleted: description
+ERR! message Deleted: dist-tags
+ERR! message Deleted: versions
+ERR! message Deleted: readme
+ERR! message Deleted: maintainers
+ERR! message Deleted: time
+ERR! message Deleted: author
+ERR! message Deleted: repository
+ERR! message Deleted: _revisions.ids.1
+ERR! message Deleted: _revisions.ids.2
+ERR! message Deleted: _attachments
+ERR! message Added: _deleted: filesearch/-rev/3-034304932a474d1c219191a844b0aa4e
+verbose exit [ 1, true ]

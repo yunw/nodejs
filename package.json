@@ -1,0 +1,38 @@
+{
+  "name": "filesearch",
+  "description": "elearning node tool , awesome onode tool",
+  "version": "0.1.0",
+  "homepage": "https://github.com/yunw/filesearchinNode",
+  "author": {
+    "name": "Irene Wang",
+    "email": "ire.wang@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yunw/filesearchinNode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yunw/filesearchinNode/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/yunw/filesearchinNode/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/filesearch",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "filesearch" : "lib/filesearch.js"
+  }
+}
