@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # filesearch
 
 elearning node tool , awesome onode tool
@@ -25,3 +26,9 @@ _(Nothing yet)_
 ## License
 Copyright (c) 2013 Irene Wang  
 Licensed under the MIT license.
+=======
+nodejs
+======
+
+Learn nodejs with npm
+>>>>>>> e8a913eabca5e651ba5de55609cd0d3b57e84517
